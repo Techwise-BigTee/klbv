@@ -1,0 +1,52 @@
+body {
+  background-color: #87CEEB; /* Light sky blue, representing trust and honesty */
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #4682B4; /* Steel blue, representing long-lasting love */
+  color: #FFFFFF;
+  padding: 20px;
+  text-align: center;
+}
+
+.photo-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.photo {
+  margin: 20px;
+  width: 200px;
+}
+
+.photo img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.photo textarea {
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+  border: 1px solid #CCCCCC;
+  border-radius: 10px;
+}
+
+.concluding-verse {
+  text-align: center;
+  padding: 20px;
+  font-size: 18px;
+  font-style: italic;
+}
+
+footer {
+  background-color: #4682B4; /* Steel blue */
+  color: #FFFFFF;
+  padding: 10px;
+  text-align: center;
+  clear: both;
+}
